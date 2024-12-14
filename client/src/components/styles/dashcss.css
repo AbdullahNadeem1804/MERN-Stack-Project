@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+.navbar {
+    background: linear-gradient(to bottom, #1e0d37, #361A64);
+    background-repeat: no-repeat;
+    color: white;
+ 
+
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 100px;
+    position: relative;
+}
+label.logo {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: bold;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.submit{
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: bold;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #361A64;
+    color: #FFFFFF;
+
+}
+.submit:hover{
+    background-color: #cecece;
+    color: #361A64;
+
+}
+.logout-btn {
+    background-color: #FFFFFF;
+    color: #372D48;
+
+
+}
+
+.signup-btn {
+    background-color: #372D48;
+    color: white;
+
+}
+
+.logout-btn:hover {
+    opacity: 0.8;
+    background-color: #372D48;
+    color: white;
+    transition: 0.2s background-color ease-in-out;
+
+}
+
+
+.side-btn{
+
+padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    height:80px;
+    width: 250px;
+    font-family: Montserrat;
+    font-weight: bold;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 60px); /* Adjust height for navbar */
+}
+
+.main-content {
+    flex-grow: 1; /* Take up remaining space */
+    padding: 20px;
+    background-color: #ffffff; /* Background color for main content */
+}
+
+
+
+.left-sidebar {
+    width: 300px; 
+    background: linear-gradient(to top, #1f1332, #361A64);
+    background-repeat: no-repeat;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-sidebar button {
+    margin: 15px 0; /* Space between buttons */
+    padding: 10px;
+    color: white; /* Button text color */
+    background-color: #4b2d7b; /* Button background color */
+    border: 1px solid #361A64; /* Button border color */
+    cursor: pointer; 
+    transition: 0.4s background-color ease;
+}
+
+.left-sidebar button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Change background color on hover */
+}
+
+.navbar ul {
+    display: flex; 
+    gap: 45px; 
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    color: white;
+    font-weight:400;
+    transition: font-weight 0.5s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    font-weight: bold;
+}
+.mid-text{
+    margin-top:80px;
+    padding-bottom:40px;
+    margin-left: 10px;
+}
+.mid-child{
+    color: #361A64;
+}
+input{
+    border-radius: 40px;
+    height: 40px;
+    width: 700px;
+    text-align: center;
+    background-color: #c2c2c2;
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size:20px;
+    color: rgb(113, 113, 113);
+    border: #b8adad;
+}
+
